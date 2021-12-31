@@ -16,6 +16,7 @@ dependencies:
   web_socket_channel: ^2.1.0
   fast_base58: ^0.2.1
   http: ^0.13.4
+  convert: ^3.0.1
 
 dev_dependencies:
   flutter_test:

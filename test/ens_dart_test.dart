@@ -2,6 +2,7 @@ import 'package:dotenv/dotenv.dart' as env;
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:ens_dart/ens_dart.dart';
+import 'package:http/http.dart';
 import 'package:web3dart/web3dart.dart';
 import 'package:web_socket_channel/io.dart';
 
