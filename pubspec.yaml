@@ -1,0 +1,28 @@
+name: ens_dart
+description: A dart library that wraps the Ethereum Name Service. It enables users and developers to use human-friendly names in place of error-prone hexadecimal addresses, content hashes, and more.
+version: 1.0.0
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dotenv: ^3.0.0
+  sha3: ^0.2.0
+  web3dart: 2.3.3
+    #path: ../web3dart
+  web_socket_channel: ^2.1.0
+  fast_base58: ^0.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
