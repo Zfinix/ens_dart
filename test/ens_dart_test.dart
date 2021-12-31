@@ -38,7 +38,9 @@ void main() {
 
     test('.getName() fetches correct name', () async {
       for (var i = 0; i < addresses.length; i++) {
-        final name = await ens.withAddress(EthereumAddress.fromHex(addresses[i])).getName();
+        final name = await ens
+            .withAddress(EthereumAddress.fromHex(addresses[i]))
+            .getName();
         expect(name, '${names[i]}.eth');
       }
     });

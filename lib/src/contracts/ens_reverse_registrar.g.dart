@@ -13,7 +13,11 @@ class EnsReverseRegistrar extends _i1.GeneratedContract {
       {_i1.EthereumAddress? address,
       required _i1.Web3Client client,
       int? chainId})
-      : super(_i1.DeployedContract(_contractAbi, address ?? ENS_REVERSE_REGISTRAR), client, chainId);
+      : super(
+            _i1.DeployedContract(
+                _contractAbi, address ?? ENS_REVERSE_REGISTRAR),
+            client,
+            chainId);
 
   /// The optional [atBlock] parameter can be used to view historical data. When
   /// set, the function will be evaluated in the specified block. By default, the

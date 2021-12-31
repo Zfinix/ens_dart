@@ -26,7 +26,7 @@ enum EnsTextKey {
 extension EnsResolve on Ens {
   /// Name hash for ENS name
   Uint8List get nodeHash => hexToBytes(ENSUtils.nameHash(ensName ?? ''));
-  
+
   /// Reverse node hash for ENS name
   Uint8List get reverseNodeHash => hexToBytes(
       ENSUtils.reverseNameHash('${ensAddress!.hexNo0x}.addr.reverse'));
