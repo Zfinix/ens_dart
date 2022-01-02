@@ -27,8 +27,8 @@ Future<void> main() async {
   final addr = await ens.withName('brantly.eth').getAddress();
   final content = await ens.getTextRecord();
 
-  print('name: $name'); // addr: 0x324f9307b6d26881822c7c8692eeac39791a9756
-  print('addr: $addr'); // name: sea.eth
+  print('name: $name'); // name: sea.eth
+  print('addr: $addr'); // addr: 0x324f9307b6d26881822c7c8692eeac39791a9756
 
   print(
       'content: $content'); /* EnsTextRecord {
