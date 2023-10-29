@@ -11,17 +11,16 @@ dependencies:
     sdk: flutter
   dotenv: ^3.0.0
   sha3: ^0.2.0
-  web3dart: ^2.3.3
-    #path: ../web3dart
+  web3dart: ^2.7.1
   web_socket_channel: ^2.1.0
   fast_base58: ^0.2.1
-  http: ^0.13.4
+  http: ^1.1.0
   convert: ^3.0.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^1.0.0
+  flutter_lints: ^3.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
